@@ -43,7 +43,7 @@ namespace Library
         public bool AddPlayer(Player player)
         {
             // TODO T.2
-          
+          players.Add(player);
 
 
         }
@@ -58,6 +58,7 @@ namespace Library
         public bool AddCaptain(Player captain)
         {
             // TODO T.3
+            captain.Add(captain); 
             
         }
 
@@ -68,6 +69,7 @@ namespace Library
         public string GetPlayers()
         {
             // TODO T.4
+            
 
         }
 
