@@ -29,6 +29,8 @@ namespace Library
         public Team(string name)
         {
             // TODO T.1
+            players= new List<Player>();
+            this.name = name;
         }
 
         /// <summary>
@@ -41,6 +43,9 @@ namespace Library
         public bool AddPlayer(Player player)
         {
             // TODO T.2
+          
+
+
         }
 
         /// <summary>
@@ -53,6 +58,7 @@ namespace Library
         public bool AddCaptain(Player captain)
         {
             // TODO T.3
+            
         }
 
         /// <summary>
@@ -62,6 +68,7 @@ namespace Library
         public string GetPlayers()
         {
             // TODO T.4
+
         }
 
         public string Name { get { return name; } }
